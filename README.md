@@ -7,7 +7,7 @@ Bandit docker SAST for python projects
    
    docker push davarski/bandit
 
-bandit-docker
+docker-bandit
 =============
 
 Simple bandit docker to run static security tests on python project in stand-alone mode, ideal for integration into a DEVSECOPS pipeline
