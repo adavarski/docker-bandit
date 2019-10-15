@@ -1,9 +1,10 @@
 # bandit
-Bandit docker SAST for python project
+Bandit docker SAST for python projects
 
 # build
 
    docker build -t davarski/bandit -f Dockerfile .
+   
    docker push davarski/bandit
 
 bandit-docker
