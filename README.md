@@ -10,7 +10,7 @@ Bandit docker SAST (Static application security testing) for python projects
 docker-bandit
 =============
 
-Simple bandit docker to run static security tests on python project in stand-alone mode, ideal for integration into a DEVSECOPS pipeline
+Simple bandit docker to run static security tests on python project in stand-alone mode, ideal for integration into a DEVSECOPS pipeline: [JEnkinsfile-example](https://github.com/adavarski/docker-bandit/blob/master/Jenkinsfile-SAST-Bandit-PYTHON_PROJECT-example)
 
 Use
 ===
