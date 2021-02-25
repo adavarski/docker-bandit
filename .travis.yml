@@ -4,11 +4,11 @@ services:
   - 'docker'
 
 script:
-  - docker build . -t docker-bandit:$TRAVIS_COMMIT
+  - docker build . -t bandit:$TRAVIS_COMMIT
 
 after_success:
   - if [[ "$TRAVIS_BRANCH" == "master" ]]; then
       docker login -u $DOCKER_HUB_USER -p $DOCKER_HUB_PASSWORD ;
-      docker tag docker-bandit:$TRAVIS_COMMIT davarski/docker-bandit:latest ;
-      docker push davarski/docker-bandit:latest ;
+      docker tag bandit:$TRAVIS_COMMIT davarski/bandit:latest ;
+      docker push davarski/bandit:latest ;
     fi
