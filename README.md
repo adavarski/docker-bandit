@@ -1,5 +1,5 @@
 # bandit
-Bandit docker SAST (Static application security testing) for python projects
+Bandit docker SAST (Static Application Security Testing) for python projects
 
 # build
 
