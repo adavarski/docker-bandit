@@ -1,7 +1,10 @@
-## Bandit
+### Bandit docker SAST (Static Application Security Testing) for python projects and DevSecOps J.pipeline
+
+
+#### Bandit
 Bandit: SAST (Static Application Security Testing) for python projects
 
-### Docker-Bandit
+#### Docker-Bandit
 =============
 
 Simple Bandit docker image/container to run static security tests on python project in stand-alone mode, ideal for integration into a DevSecOps pipelines: 
