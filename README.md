@@ -20,4 +20,4 @@ Simple bandit docker image/container to run static security tests on python proj
     //help
     docker run -u root --rm -v YOUR_PYTHON_PROJECT_PATH:/app davarski/bandit bandit -h
 ```
-#### Example DevSecOps J.pipeline:
+#### Example DevSecOps J.pipeline: [Jenkinsfile](https://github.com/adavarski/docker-bandit/blob/master/Jenkinsfile-SAST-Bandit-PYTHON_PROJECT-example)
