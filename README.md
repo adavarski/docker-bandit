@@ -1,4 +1,4 @@
-### Bandit docker SAST (Static Application Security Testing) for python projects and DevSecOps pipeline
+### Docker Bandit SAST (Static Application Security Testing) for python projects and DevSecOps pipeline
 
 
 #### Bandit
