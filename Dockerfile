@@ -1,6 +1,6 @@
 FROM alpine
 
-MAINTAINER davar
+MAINTAINER A.Davarski
 
 RUN mkdir -p /app
 WORKDIR /app
